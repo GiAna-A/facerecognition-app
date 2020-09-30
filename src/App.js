@@ -12,7 +12,7 @@ import Register from './components/Register/Register';
 
 /*from clarifai https://github.com/Clarifai/clarifai-javascript most setUp for API require this */
 const app = new Clarifai.App({
-  apiKey: /*Token*/
+  apiKey: /*Token*/ ''
 });
 const particlesOptions = {
   particles: {
